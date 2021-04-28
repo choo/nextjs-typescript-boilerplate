@@ -1,0 +1,36 @@
+/* font css should be imported here*/
+
+:root {
+  --theme-primary: #ffffff;
+  --theme-secondary: #444444;
+  --theme-on-primary: #333333;
+  --theme-on-secondary: #ff0000;
+
+  --theme-is-active: #ffc1c1;
+  --theme-is-active-ripple: #ffc1c1;
+
+  --theme-header-height: 48px;
+  --theme-header-color: #444444;
+  --theme-header-font-size: 24px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
